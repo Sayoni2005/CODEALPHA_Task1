@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gallery-container">
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="img1.jpg" height="1600" width="772" alt="Image 1" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img2.jpg" height="841" width="739" alt="Image 2" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img3.jpg" height="901" width="739" alt="Image 3" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img4.jpg" height="1530" width="1174" alt="Image 4" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img5.jpg" height="3096" width="4128" alt="Image 5" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img6.jpg" height="1511" width="1200" alt="Image 6" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img7.jpg" height="2908" width="2107" alt="Image 7" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img8.jpg" height="1196" width="738" alt="Image 8" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img9.jpg" height="840" width="760" alt="Image 9" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="img10.jpg" height="1809" width="884" alt="Image 10" class="gallery-image">
+        </div>
+    </div>
+    <div class="navigation">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+    </div>
+</div>
 
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightboxImage" src="data:," alt="Lightbox image">
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
